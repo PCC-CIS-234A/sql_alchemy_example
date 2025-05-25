@@ -16,7 +16,7 @@ enough to just send queries to the database using SQL).
 ## Usage
 Run:
 ```python
-python NamesUI.py
+python main.py
 ```
 to execute the names app, and run:
 ```python
