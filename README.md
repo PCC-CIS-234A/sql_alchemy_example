@@ -14,12 +14,12 @@ familiar with it and knows how to use it. The stories in this class are most def
 enough to just send queries to the database using SQL).
 
 ## Usage
-Run:
+From the root project folder, run:
 ```python
 python main.py
 ```
 to execute the names app, and run:
 ```python
-python -m unittest test_Name.py
+python -m unittest test.test_Name
 ```
 to run the unit tests.

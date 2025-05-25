@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from Name import Name
+from logic.Name import Name
 
 
 class TestName(unittest.TestCase):
@@ -17,7 +17,7 @@ class TestName(unittest.TestCase):
         self.assertEqual(n.get_count(), 85)
 
     # This tests whether the conversion from database results to Name objects is correct.
-    @patch('Name.Database.read_names')
+    @patch('logic.Name.Database.read_names')
     def test_read_names_returns_expected_objects(self, mock_read_names):
         NAME = 'Marc'
         GENDER = 'M'
